@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: hsl(217, 54%, 11%);
+	font-size: 18px;
+  font-family: 'Outfit';
+	width: 100%;
+}
+
+.card-BG {
+	background-color: hsl(215, 50%, 16%);
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 100px;
+	width: 350px;
+	padding: 0px;
+	border-radius: 10px;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 10px black;
+}
+
+.container {
+	margin: 30px 30px;
+}
+
+img.gem {
+	display: block;
+  margin-left: 0;
+  margin-right: 0;
+	height: auto;
+	box-shadow: 0 0 2px black;
+  width: 100%;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+h2 {
+	color: hsl(0, 0%, 100%);
+	margin-bottom: 15px;
+}
+
+p {
+	margin-bottom: 20px;
+	color: hsl(215, 51%, 70%);
+}
+
+.blue {
+	position: absolute;
+	right: 40px;
+	color: hsl(215, 51%, 70%);
+}
+
+.left {
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+}
+.cyan {
+	color: hsl(178, 100%, 50%);
+	padding-bottom: 5px;
+	position: absolute;
+	left: 25px;
+	margin-left: 25px;
+}
+
+.boy {
+	margin-top: 15px;
+	width: 42px;
+	position: relative;
+	bottom: -10px;
+}
+
+.man {
+	color: hsl(215, 51%, 70%);
+	position: absolute;
+	bottom: 40px;
+	left: 100px;
+}
+
+.white {
+	color: white;
+}
+
+@media screen and (max-width: 375px){
+	body {
+		background-color: hsl(217, 54%, 11%);
+	font-size: 18px;
+  font-family: 'Outfit';
+	width: 100%;
+	height: auto;
+	}
+
+	.card-BG {
+		background-color: hsl(215, 50%, 16%);
+		margin-top: 100px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 50px;
+		width: 350px;
+		padding: 0px;
+		border-radius: 10px;
+		height: 600px;
+		position: relative;
+		overflow: hidden;
+		box-shadow: 0 0 10px black;
+	}
+}
